@@ -5,7 +5,10 @@ function ImageLogicContainer() {
     <div>
       <h1>Image Uploader</h1>
       <div>
-        <input type="file" accept="image/*" />
+        <form action="">
+          <label for="profile_pic">Choose file to upload</label>
+          <input type="file" accept="image/*" />
+        </form>
       </div>
     </div>
   );
